@@ -4,7 +4,7 @@ import seaborn as sns
 import numpy as np
 import pandas as pd
 
-def plot_feature_importance(model, feature_names, model_name="Model", coef_type="auto", top_n=15, save_path=None):
+def plot_feature_importance(model, feature_names, model_name="Model", coef_type="auto", top_n=15, save_path="full_path.png"):
     """
     Plot feature importances or coefficients from a fitted model.
 
