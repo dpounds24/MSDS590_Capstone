@@ -8,8 +8,21 @@ from sklearn.metrics import (
     ConfusionMatrixDisplay, roc_curve
 )
 from sklearn.preprocessing import label_binarize
+"""
+    Plot feature importances or coefficients from a fitted model.
 
-def full_evaluation(model, X_train, y_train, X_test, y_test, classes=None, model_name="Model", save_dir="/full_directiory"):
+    Parameters:
+    - model: Trained model 
+    - X_train: Training features
+    - y_train: Training labels
+    - X_test: Test features
+    - y_test: Test labels
+    - classes: List of classes
+    - model_name: Name of model
+    - save_path: Directory where to save the plot
+    """
+
+def full_evaluation(model, X_train, y_train, X_test, y_test, classes=None, model_name="Model", save_dir="/directiory"):
     os.makedirs(save_dir, exist_ok=True) # Create directory if it doesn't exist
     results = {}
 
