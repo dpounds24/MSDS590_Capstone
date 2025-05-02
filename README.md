@@ -32,7 +32,7 @@ The project explores whether physiological signals from wearable devices—speci
 ## 📈 Key Findings
 - Time-series models consistently outperformed static models for all tasks.
 - Best performing models achieved:
-- > >85% test accuracy for stress and anxiety classification.
+- > Over 85% test accuracy for stress and anxiety classification.
   > R² = 0.68 for negative affect regression (SVM model).
 - Most important predictors:
 - > SCL_Mean (EDA) and HRV_HF (High-Frequency HRV)
@@ -61,4 +61,11 @@ MSDS590_Capstone/
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # Project overview
 └── LICENSE
+
+├── data/                  # Cleaned and labeled datasets
+├── figures/               # Evaluation and visualization outputs
+├── notebooks/             # Jupyter notebooks for analysis and experimentation
+├── scripts/               # Core preprocessing and modeling scripts
+├── results/               # CSVs with evaluation summaries
+└── README.md
 
