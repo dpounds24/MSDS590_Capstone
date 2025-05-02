@@ -62,10 +62,5 @@ MSDS590_Capstone/
 ├── README.md                    # Project overview
 └── LICENSE
 
-├── data/                  # Cleaned and labeled datasets
-├── figures/               # Evaluation and visualization outputs
-├── notebooks/             # Jupyter notebooks for analysis and experimentation
-├── scripts/               # Core preprocessing and modeling scripts
-├── results/               # CSVs with evaluation summaries
-└── README.md
+
 
