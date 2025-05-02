@@ -1,0 +1,8 @@
+Model,MSE,MAE,R2,Best Params
+LinearRegression,29.86004703582516,4.099770563832947,-0.10106027773050963,{}
+RandomForest,31.397310649554182,4.071456265247108,-0.15774538272872762,"{'max_depth': 5, 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 100}"
+DecisionTree,33.28260802894295,4.109023481526916,-0.22726389533066338,"{'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2}"
+XGBoost,27.588003635678408,3.8829627059700935,-0.017280880659234166,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 50, 'reg_lambda': 5, 'subsample': 0.7}"
+LightGBM,28.053233601342505,3.9297197768145615,-0.034435784487352405,"{'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 50, 'reg_lambda': 1.0}"
+AdaBoost,32.79725812385219,4.2739118997532195,-0.2093670882474541,"{'learning_rate': 0.1, 'n_estimators': 50}"
+SVM,33.15468696875969,3.939520791949607,-0.22254693028757488,"{'C': 0.1, 'epsilon': 1.0, 'kernel': 'linear'}"
