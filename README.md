@@ -50,11 +50,8 @@ The project explores whether physiological signals from wearable devices—speci
 MSDS590_Capstone/
 ├── data/                                            # Raw and Preprocessed files
 │   ├── processed data
-│
 │   ├── raw data link
-│
 ├── notebooks/                                       # Jupyter notebooks for analysis & modeling
-│
 │   ├── 00_Data_Extraction_and_Preprocessing.ipynb
 │   ├── 01_static_stress_modeling.ipynb
 │   ├── 02_time-series_stress_modeling.ipynb
@@ -66,10 +63,10 @@ MSDS590_Capstone/
 │   ├── 08_time-series_NA_modeling.ipynb
 │   ├── 09_EDA_and_Visualizations.ipynb
 │
-├── figures/                     # Model performance plots
-├── results/                     # Evaluation outputs and tables
-├── scripts/                      # Custom scripts
-└── README.md                    # Project overview
+├── figures/                                         # Model performance plots
+├── results/                                         # Evaluation outputs and tables
+├── scripts/                                         # Custom scripts
+└── README.md                                        # Project overview
 ```
 
 
