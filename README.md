@@ -46,7 +46,8 @@ The project explores whether physiological signals from wearable devices—speci
 
 
 ## 🗃️ Directory Structure
-
+```
+MSDS590_Capstone/
 ├── data/                         # Raw and Preprocessed files
 │   ├── processed data
 │   ├── raw data link
@@ -65,5 +66,6 @@ The project explores whether physiological signals from wearable devices—speci
 ├── results/                     # Evaluation outputs and tables
 ├── scripts/                      # Custom scripts
 └── README.md                    # Project overview
+```
 
 
