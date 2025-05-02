@@ -47,20 +47,23 @@ The project explores whether physiological signals from wearable devices—speci
 
 ## 🗃️ Directory Structure
 
-(To be updated.)
-MSDS590_Capstone/
-├── data/                         # Preprocessed feature files (not raw WESAD)
+├── data/                         # Raw and Preprocessed files
+│   ├── processed data
+│   ├── raw data link
 ├── notebooks/                   # Jupyter notebooks for analysis & modeling
-│   ├── 01_preprocessing.ipynb
-│   ├── 02_feature_extraction.ipynb
-│   ├── 03_static_modeling.ipynb
-│   └── 04_timeseries_modeling.ipynb
-├── figures/                     # Model performance plots and workflow diagrams
+│   ├── 00_Data_Extraction_and_Preprocessing.ipynb
+│   ├── 01_static_stress_modeling.ipynb
+│   ├── 02_time-series_stress_modeling.ipynb
+│   ├── 03_static_anxiety_modeling.ipynb
+│   ├── 04_time-series_anxiety_modeling.ipynb
+│   ├── 05_static_PA_modeling.ipynb
+│   ├── 06_time-series_PA_modeling.ipynb
+│   ├── 07_static_NA_modeling.ipynb
+│   ├── 08_time-series_NA_modeling.ipynb
+│   ├── 09_EDA_and_Visualizations.ipynb
+├── figures/                     # Model performance plots
 ├── results/                     # Evaluation outputs and tables
-├── utils/                       # Custom scripts for labeling, metrics, etc.
-├── requirements.txt             # Python dependencies
-├── README.md                    # Project overview
-└── LICENSE
-
+├── scripts/                      # Custom scripts
+└── README.md                    # Project overview
 
 
